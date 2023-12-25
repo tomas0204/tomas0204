@@ -1,0 +1,381 @@
+body {
+    background-color: rgb(252, 252, 252);
+    color: #121a2efa; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.tema-oscuro {
+    background-color: #121a2efa; 
+    color: rgb(252, 252, 252);   
+}
+
+
+.div_barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 30px;
+    z-index: 1001; /* Asegurar que esté sobre otros elementos */
+    transform: translateY(10px) translateX(-290px);
+}
+
+.div_tema {
+    top: 10px;
+    right: 10px;
+    z-index: 999; /* Asegurar que esté detrás del botón */
+}
+
+#cambiar-tema {
+    border: none; /* Quita el borde del botón */
+    background: none; /* Quita el fondo del botón */
+    cursor: pointer;
+    outline: none; /* Quita el contorno al hacer clic */
+}
+
+/* Estilo de la barra de desplazamiento en la página normal */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ddd; /* Color de fondo del indicador de desplazamiento */
+    border-radius: 6px;
+}
+
+/* Estilo de la barra de desplazamiento en la página con tema oscuro */
+body.tema-oscuro::-webkit-scrollbar-thumb {
+    background-color: #121a2efa; /* Cambia el color del indicador en el tema oscuro */
+}
+
+.div_general{
+    transform: translateY(5%) translateX(40%);
+    font-size: 25px;
+    position: absolute;
+    max-width: 55%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: -1;
+}
+
+.div_nick{
+    transform: translateY(-10%) translateX(26%);
+
+}
+
+#desc_nick{
+    transform: translateY(-80%) translateX(0%);
+    font-size: 20px;
+    color: #215E89;
+    height: 100%;
+}
+
+.div_name_desc{
+    transform:  translateY(-125%) translateX(10px);
+}
+
+.div_avatar {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #215e898c;
+    transform: translateY(30%) translateX(-110%);
+    border: 5px solid #121a2efa;
+    transition: background-color 0.7s ease;
+}
+
+.tema-oscuro .div_avatar{
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #121a2efa;
+    transform: translateY(30%) translateX(-110%);
+    border: 5px solid #1742614b;
+}
+
+.div_avatar img {
+    width: 270px;
+    max-width: 270px;
+    height: auto;
+    object-fit: cover;
+    transform: translateY(0%) translateX(-14%);
+}
+
+  
+
+.div_descripcion{
+    transform: translateY(-10%) translateX(0%);
+}
+
+.div_nick {
+    transform: translateY(-10%) translateX(26%);
+}
+
+.palabra {
+    font-size: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #535353fa;
+    animation: escribiendo 3s steps(25) forwards, parpadeo 2s infinite 3s;
+    margin-right: 2px;
+    display: inline-block; 
+    max-width: 180px;
+}
+
+@keyframes escribiendo {
+    from {
+        width: 0;
+    }
+    to {
+        width: 180px;
+    }
+}
+
+@keyframes parpadeo {
+    0%, 50%, 100% {
+        border-color: transparent;
+    }
+    25%, 75% {
+        border-color: #535353fa;
+    }
+}
+
+
+#exp{
+    font-size: 30px;
+    transform: translateY(20px);
+}
+
+.backend{
+    transform: translateY(40px);
+    line-height: 0.5;
+}
+
+#back{
+    font-size: 22px;
+}
+
+#back_desc{
+    font-size: 55%;
+    color: #215E89;
+}
+
+.info_exp{
+    list-style: none;
+    font-size: 18px;
+    transform: translateY(30%);
+}
+
+
+.info_exp li{
+    margin-left: 0em;
+    margin-bottom: 1.0em;
+}
+
+.info_exp li::before{
+    content: "● "; /* Agrega el círculo como marcador y la palabra "Item" */
+    color: #215E89;
+    margin-bottom: 0.5em;
+}
+
+
+#div_proyects{
+    font-size: 30px;
+    transform: translateY(100px);
+}
+
+
+.proyects img{
+    position: relative;
+    transform: translateX(-3%);
+    width: 65%;
+    max-width: 65%;
+    height: auto;
+    border-radius:10px;
+    display: block;
+    box-shadow: 4px 4px 10px #121a2efa; /* Puedes ajustar la sombra según tus preferencias */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Agrega una transición para la sombra y el tamaño */
+}
+
+.proyects:hover img {
+    transform: scale(1.05); /* Agranda la imagen al pasar el mouse */
+}
+
+.tema-oscuro .proyects:hover img {
+    box-shadow: 4px 4px 20px #121a2efa; /* Ajusta la sombra en modo oscuro al pasar el mouse */
+}
+
+.div_redes{
+    transform: translateY(100px);
+    line-height: 2.3;
+}
+
+#redes{
+    font-size: 30px;
+}
+
+.div_git{
+    transform: translateX(-15px);
+}
+
+a {
+    font-size: 23px;
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto */
+    margin-top: 10px;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #215E89;
+    transition: width 0.3s ease; /* Añade una transición a la propiedad width */
+    bottom: 10px;
+}
+
+a:hover::before {
+    width: 100px;
+}
+
+#github-img{
+    width: 23px;
+    transform: translateY(1px) translateX(0px);
+}
+
+
+
+#gmail{
+    font-size: 30px;
+}
+
+.correo-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    transform: translateY(30px) translateX(-20px);
+    position: absolute;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    transform: translateX(-15px);
+}
+
+.correo-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(35px);
+}
+
+.correo {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #215e8941;
+    border-radius: 10px;
+    flex-grow: 1;
+    width: 400px;
+    display: inline-block;
+    
+}
+
+button {
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    background-color: #999c9e; /* Color de fondo predeterminado */
+    color: #1a1a1a; /* Color de texto predeterminado */
+}
+
+button:hover {
+    background-color: #215e8941;
+    color: #215E89; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .div_general{
+        max-width: 400px;
+        transform: translateX(50px);
+    }
+    .div_nick{
+        transform: translateY(100px);
+    }
+
+    .div_barra{
+        max-width: 800px;
+    }
+
+    .div_avatar{
+        transform: translateX(52%);
+    }
+
+    .tema-oscuro .div_avatar{
+        transform: translateX(52%);
+    }
+
+    .div_name_desc{
+        text-align: center;
+        transform: translateY(-10%);
+    }
+
+    img{
+        transform: translateX(-60px);
+    }
+    
+    .palabra {
+        font-size: 24px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid #838383;
+        animation: escribiendo 3s steps(25) forwards, parpadeo 2s infinite 3s;
+        margin-right: 2px;
+        display: inline-block; 
+        max-width: 210px;
+    }
+    
+    @keyframes escribiendo {
+        from {
+            width: 0;
+        }
+        to {
+            width: 210px;
+        }
+    }
+    
+    @keyframes parpadeo {
+        0%, 50%, 100% {
+            border-color: transparent;
+        }
+        25%, 75% {
+            border-color: #535353fa;
+        }
+    }
+
+    .div_descripcion{
+        transform: translateY(13%);
+    }
+
+    
+
+
+}
