@@ -11,7 +11,7 @@ function cambiarTema() {
     body.style.color = temaOscuro ? "rgb(252, 252, 252)" : "#121a2efa";
 
     // Cambia el contenido del botón entre 🌞 y 🌜 inmediatamente
-    var imgSrc = temaOscuro ? "moon.png" : "sun.png";
+    var imgSrc = temaOscuro ? "page_/moon.png" : "page_/sun.png";
     var emojiImg = document.getElementById("emoji-img");
     emojiImg.src = imgSrc;
     
@@ -29,7 +29,7 @@ function cambiarTema() {
 document.addEventListener('DOMContentLoaded', function () {
     var body = document.body;
     var temaOscuro = body.classList.contains("tema-oscuro");
-    var imgSrc = temaOscuro ? "moon.png" : "sun.png";
+    var imgSrc = temaOscuro ? "page_/moon.png" : "page_/sun.png";
     var emojiImg = document.getElementById("emoji-img");
     emojiImg.src = imgSrc;
 });
@@ -40,7 +40,7 @@ function cambiarImagenSegunTema() {
     var temaActual = body.classList.contains("tema-oscuro") ? 'dark' : 'light';
 
     // Cambia la imagen según el tema actual
-    img.src = temaActual === 'light' ? 'github.png' : 'githublanco.png';
+    img.src = temaActual === 'light' ? 'page_/github.png' : 'page_/githublanco.png';
 }
 
 // Llamada inicial para asegurar que la imagen de GitHub se ajuste al tema al cargar la página
