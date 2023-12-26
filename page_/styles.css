@@ -35,6 +35,8 @@ img {
 }
 
 #cambiar-tema {
+    display: flex;
+    flex-wrap: wrap;
     border: none; /* Quita el borde del botón */
     background: none; /* Quita el fondo del botón */
     cursor: pointer;
@@ -325,6 +327,14 @@ button:hover {
         max-width: 800px;
     }
 
+    #emoji-img{
+        transform: translateX(0px);
+    }
+
+    #cambiar-tema{
+        transform: translateX(-60px);
+    }
+
     .div_avatar{
         transform: translateX(52%);
     }
@@ -374,8 +384,26 @@ button:hover {
     .div_descripcion{
         transform: translateY(13%);
     }
+    
+    }   
+    
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+        
+    #emoji-img{
+        transform: translateX(0px);
+    }
 
+    #cambiar-tema{
+        transform: translateX(-150px);
+    }
+
+    .div_general{
+        max-width: 600px;
+        position: relative;
+        text-align: left;
+    }
+    }
     
 
 
-}
+
