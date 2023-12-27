@@ -22,7 +22,7 @@ body.tema-oscuro {
     justify-content: flex-end;
 }
 
-img {
+.div_barra img {
     width: 30px;
     z-index: 1001; /* Asegurar que esté sobre otros elementos */
     transform: translateY(10px) translateX(-290px);
@@ -195,12 +195,11 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     transform: translateY(100px);
 }
 
-
-.proyects img{
+.p1{
     position: relative;
     transform: translateX(-3%);
-    width: 65%;
-    max-width: 65%;
+    width: 50%;
+    max-width: 50%;
     height: auto;
     border-radius:10px;
     display: block;
@@ -208,8 +207,51 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Agrega una transición para la sombra y el tamaño */
 }
 
-.proyects:hover img {
-    transform: scale(1.05); /* Agranda la imagen al pasar el mouse */
+.p1:hover {
+    transform: scale(1.05); 
+}
+
+.proyect1_info{
+    width: 40%;
+    transform: translateY(-108%) translateX(137%);
+    font-size: 20px;
+}
+
+.proyect1_info p{
+    position: relative;
+    z-index: 2;
+}
+
+
+.img_p1{
+    display: flex;
+}
+
+.div_django,
+.div_mysql {
+    width: 50px;
+    height: 50px;
+    transform: translateX(0%);
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    margin: 5px;
+}
+
+.div_django img{
+    width: 100px;
+    max-width: 100px;
+    object-fit: cover;
+    z-index: 1;
+    transform: translateX(-25px);
+}
+
+.div_mysql img{
+    width: 65px;
+    max-width: 90px;
+    object-fit: cover;
+    z-index: 1;
+    transform: translateY(-5px) translateX(-5px);
 }
 
 .tema-oscuro .proyects:hover img {
@@ -217,7 +259,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
 }
 
 .div_redes{
-    transform: translateY(100px);
+    transform: translateY(-120px);
     line-height: 2.3;
 }
 
@@ -267,7 +309,7 @@ a:hover::before {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    transform: translateY(30px) translateX(-20px);
+    transform: translateY(-170px) translateX(-20px);
     position: absolute;
 }
 
@@ -316,11 +358,12 @@ button:hover {
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
     .div_general{
-        max-width: 400px;
-        transform: translateX(50px);
+        width: 600px;
+        max-width: 600px;
+        transform: translateX(10px);
     }
     .div_nick{
-        transform: translateY(100px);
+        transform: translateY(100px) translateX(-35px);
     }
 
     .div_barra{
@@ -332,15 +375,16 @@ button:hover {
     }
 
     #cambiar-tema{
-        transform: translateX(10px);
+        transform: translateX(-50px);
     }
 
     .div_avatar{
-        transform: translateX(52%);
+        transform: translateX(100%);
     }
 
+
     .tema-oscuro .div_avatar{
-        transform: translateX(52%);
+        transform: translateX(100%);
     }
 
     .div_name_desc{
@@ -363,6 +407,7 @@ button:hover {
         max-width: 210px;
     }
     
+
     @keyframes escribiendo {
         from {
             width: 0;
@@ -384,7 +429,30 @@ button:hover {
     .div_descripcion{
         transform: translateY(13%);
     }
-    
+    .p1{
+        width: 70%;
+        max-width: 70%;
+    }
+
+    #div_proyects{
+        transform: translateY(15%) translateX(15px);
+    }
+
+    .proyect1_info{
+        transform: translateY(0%);
+    }
+
+    .div_redes{
+        transform: translateY(50%) translateX(15px);
+    }
+
+    .correo-container{
+        transform: translateY(0%) translateX(80px);
+    }
+    .correo-container h2{
+        transform: translateY(0%) translateX(130px);
+    }
+
     }   
     
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
