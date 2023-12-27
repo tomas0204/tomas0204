@@ -358,12 +358,12 @@ button:hover {
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
     .div_general{
-        width: 600px;
-        max-width: 600px;
+        width: 500px;
+        max-width: 500px;
         transform: translateX(10px);
     }
     .div_nick{
-        transform: translateY(100px) translateX(-35px);
+        transform: translateY(100px) translateX(-55px);
     }
 
     .div_barra{
@@ -375,7 +375,7 @@ button:hover {
     }
 
     #cambiar-tema{
-        transform: translateX(-50px);
+        transform: translateX(-10px);
     }
 
     .div_avatar{
@@ -389,7 +389,7 @@ button:hover {
 
     .div_name_desc{
         text-align: center;
-        transform: translateY(-10%);
+        transform: translateY(-10%) translateX(45px);
     }
 
     img{
@@ -447,10 +447,11 @@ button:hover {
     }
 
     .correo-container{
-        transform: translateY(0%) translateX(80px);
+        transform: translateY(0%) translateX(50px);
     }
     .correo-container h2{
-        transform: translateY(0%) translateX(130px);
+        width: 10%;
+        transform: translateY(0%) translateX(145px);
     }
 
     }   
