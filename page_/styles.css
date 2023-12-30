@@ -89,7 +89,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     overflow: hidden;
     border-radius: 50%;
     background-color: #215e898c;
-    transform: translateY(30%) translateX(-110%);
+    transform: translateY(10%) translateX(-110%);
     border: 5px solid #121a2efa;
     transition: background-color 0.7s ease;
 }
@@ -258,8 +258,84 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     box-shadow: 4px 4px 20px #121a2efa; /* Ajusta la sombra en modo oscuro al pasar el mouse */
 }
 
+#div_educacion{
+    transform: translateY(-30%);
+    line-height: 0.4;
+}
+
+.educacion_info{
+    transform: translateY(10%) translateX(-10px);
+    font-size: 18px;
+}
+
+.educacion_info h4{
+    position: absolute;
+    top: -16px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    font-size: 14px; /* Ajusta el tamaño del texto según sea necesario */
+}
+
+.div_certificado {
+    background-color: #2a628a8c; /* Color de fondo del certificado */
+    border-radius: 7px;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    transform: translateY(10px);
+}
+
+.certificado {
+    letter-spacing: 2px;
+    color: #121a2efa; /* Color del texto del certificado */
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Agrega una transición al color del texto */
+}
+
+.div_certificado:hover {
+    background-color: #215e89a2; /* Nuevo color del fondo al pasar el ratón por el certificado */
+}
+
+.div_certificado:hover .certificado {
+    color: #27365f; /* Nuevo color del texto al pasar el ratón por el certificado */
+}
+
+.tema-oscuro .div_certificado {
+    background-color: #27365f; /* Color de fondo del certificado */
+    border-radius: 7px;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.tema-oscuro .certificado {
+    letter-spacing: 2px;
+    color: rgb(252, 252, 252); /* Color del texto del certificado */
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Agrega una transición al color del texto */
+}
+
+.tema-oscuro .div_certificado:hover {
+    background-color: #27365fa8;  /* Nuevo color del fondo al pasar el ratón por el certificado */
+}
+
+.tema-oscuro .div_certificado:hover .certificado {
+    color: rgb(179, 179, 179); /* Nuevo color del texto al pasar el ratón por el certificado */
+}
+
+.educacion_info1{
+    transform: translateY(40px);
+}
+
 .div_redes{
-    transform: translateY(-120px);
+    transform: translateY(10px);
     line-height: 2.3;
 }
 
@@ -268,17 +344,17 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
 }
 
 .div_git{
-    transform: translateX(-15px);
+    transform: translateY(-10px);
 }
 
-a {
+#git {
     font-size: 23px;
     text-decoration: none; /* Elimina el subrayado */
     color: inherit; /* Hereda el color del texto */
     margin-top: 10px;
 }
 
-a::before {
+#git::before {
     content: "";
     position: absolute;
     width: 0;
@@ -290,7 +366,7 @@ a::before {
     bottom: 10px;
 }
 
-a:hover::before {
+#git:hover::before {
     width: 100px;
 }
 
@@ -309,7 +385,7 @@ a:hover::before {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    transform: translateY(-170px) translateX(-20px);
+    transform: translateY(-50px) translateX(-20px);
     position: absolute;
 }
 
@@ -358,8 +434,8 @@ button:hover {
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
     .div_general{
-        width: 500px;
-        max-width: 500px;
+        width: 450px;
+        max-width: 450px;
         transform: translateX(10px);
     }
     .div_nick{
@@ -379,7 +455,7 @@ button:hover {
     }
 
     .div_avatar{
-        transform: translateX(100%);
+        transform: translateX(85%);
     }
 
 
@@ -442,16 +518,24 @@ button:hover {
         transform: translateY(0%);
     }
 
+    #div_educacion{
+        transform: translateY(40%) translateX(15px);
+    }
+
+    .educacion_info h4{
+        transform: translateY(26px);
+    }
+
     .div_redes{
-        transform: translateY(50%) translateX(15px);
+        transform: translateY(130%) translateX(15px);
     }
 
     .correo-container{
-        transform: translateY(0%) translateX(50px);
+        transform: translateY(50%) translateX(50px);
     }
     .correo-container h2{
         width: 10%;
-        transform: translateY(0%) translateX(145px);
+        transform: translateY(0%) translateX(135px);
     }
 
     }   
