@@ -100,7 +100,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     overflow: hidden;
     border-radius: 50%;
     background-color: #121a2efa;
-    transform: translateY(30%) translateX(-110%);
+    transform: translateY(10%) translateX(-110%);
     border: 5px solid #1742614b;
 }
 
@@ -460,7 +460,7 @@ button:hover {
 
 
     .tema-oscuro .div_avatar{
-        transform: translateX(100%);
+        transform: translateX(85%);
     }
 
     .div_name_desc{
