@@ -451,7 +451,7 @@ button:hover {
     }
 
     #cambiar-tema{
-        transform: translateX(-10px);
+        transform: translateX(-0px);
     }
 
     .div_avatar{
@@ -489,7 +489,7 @@ button:hover {
             width: 0;
         }
         to {
-            width: 210px;
+            width: 246px;
         }
     }
     
@@ -524,6 +524,10 @@ button:hover {
 
     .educacion_info h4{
         transform: translateY(26px);
+    }
+
+    .info_exp{
+        transform: translateY(40px);
     }
 
     .div_redes{
