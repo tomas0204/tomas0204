@@ -432,7 +432,7 @@ button:hover {
 }
 
 
-@media only screen and (min-width: 480px) and (max-width: 600px) {
+@media only screen and (min-width: 0px) and (max-width: 600px) {
     .div_general{
         width: 450px;
         max-width: 450px;
@@ -535,7 +535,7 @@ button:hover {
     }
 
     .correo-container{
-        transform: translateY(50%) translateX(50px);
+        transform: translateY(50%) translateX(10px);
     }
     .correo-container h2{
         width: 10%;
