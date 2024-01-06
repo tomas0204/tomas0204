@@ -71,3 +71,32 @@ function copiarTexto() {
 }
 
 
+var video = document.getElementById('video-proyect1');
+var videoContainer = document.getElementById('video-container');
+
+function showControls() {
+    video.controls = true;
+    videoContainer.classList.add('controls-visible');
+}
+
+function hideControls() {
+    video.controls = false;
+    videoContainer.classList.remove('controls-visible');
+}
+
+videoContainer.addEventListener('mouseenter', showControls);
+videoContainer.addEventListener('mouseleave', hideControls);
+
+// Mostrar controles al iniciar la reproducción
+video.addEventListener('play', showControls);
+
+// Ocultar controles al pausar
+video.addEventListener('pause', hideControls);
+
+// Restablecer los controles después de cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    hideControls();
+});
+
+
+
