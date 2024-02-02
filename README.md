@@ -2,23 +2,17 @@
   <p align="center">
   <img src="mario.gif" alt="Hello" width="800" height="400" style="border-radius: 10px;"/>
 </p>
-<table align="center">
-  <tr>
-    <td>
-      <a href="" alt="Join our community">
-        <img width="32px" src="https://cdn.discordapp.com/attachments/831153224559099954/1202817562124230716/image.png?ex=65ced626&is=65bc6126&hm=89d716433b17468545a6a882aef16d0fd36b5b01049f96c472279338ba2c46a4"/>
-      </a>
-    </td>
-    <td>
-      &#8287;&#8287;&#8287;&#8287;&#8287;
-    </td>
-    <td>
-      <a href="https://www.linkedin.com/in/tom%C3%A1s-ponce-b6652929a/" alt="Join our community">
-        <img width="42px" src="https://cdn.discordapp.com/attachments/831153224559099954/1202818604085809222/image.png?ex=65ced71e&is=65bc621e&hm=24049e72521fa349e6e72762fef9132e9dd3fd896e274a9f4cb030cbef6881fb"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center" style="margin-top: -200px;">
+  <a href="" alt="Join our community" style="margin-right: 10px;">
+    <img width="32px" src="https://cdn.discordapp.com/attachments/831153224559099954/1202817562124230716/image.png?ex=65ced626&is=65bc6126&hm=89d716433b17468545a6a882aef16d0fd36b5b01049f96c472279338ba2c46a4"/>
+  </a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://www.linkedin.com/in/tom%C3%A1s-ponce-b6652929a/" alt="Join our community" style="margin-left: 10px;">
+    <img width="42px" src="https://cdn.discordapp.com/attachments/831153224559099954/1202818604085809222/image.png?ex=65ced71e&is=65bc621e&hm=24049e72521fa349e6e72762fef9132e9dd3fd896e274a9f4cb030cbef6881fb"/>
+  </a>
+</p>
+
+
 
 <h1 align="center">Hi 👋, I'm Tomás</h1>
 <h3 align="center">Backend Developer</h3>
