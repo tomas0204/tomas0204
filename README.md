@@ -1,7 +1,13 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/831153224559099954/1202809988977000558/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif?ex=65cecf18&is=65bc5a18&hm=be683c00398e180109252986b4386cb4409a40b67c4f8eb3d0ed4713080b67b8&" alt="Hello" width="1000" height="400"/>
+  <p align="center">
+  <img src="https://cdn.discordapp.com/attachments/831153224559099954/1202824778977779722/mario.gif?ex=65cedcde&is=65bc67de&hm=d46861c672366ac38ec74f20f5a85749f4388e488852032630651555a1361534&" alt="Hello" width="800" height="400" style="border-radius: 10px;"/>
 </p>
 
+<a href="" alt="Join our community"><img width="32px" src="https://cdn.discordapp.com/attachments/831153224559099954/1202817562124230716/image.png?ex=65ced626&is=65bc6126&hm=89d716433b17468545a6a882aef16d0fd36b5b01049f96c472279338ba2c46a4&"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+
+<a href="https://www.linkedin.com/in/tom%C3%A1s-ponce-b6652929a/" alt="Join our community"><img width="42px" src="https://cdn.discordapp.com/attachments/831153224559099954/1202818604085809222/image.png?ex=65ced71e&is=65bc621e&hm=24049e72521fa349e6e72762fef9132e9dd3fd896e274a9f4cb030cbef6881fb&"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
 
 <h1 align="center">Hi 👋, I'm Tomás</h1>
 <h3 align="center">Backend Developer</h3>
@@ -10,11 +16,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tomas0204&label=Profile%20views&color=0e75b6&style=flat" alt="tomas0204" /> </p>
 
-- 🌱 I’m currently learning **HTML - CSS - JavaScript - Python - Django - SQL - MySQL - Git - GitHub**
 
-- 👨‍💻 All of my projects are available at [https://tomas0204.github.io/tomas0204/](https://tomas0204.github.io/tomas0204/)
-
-- 📫 How to reach me **tomasignacioponce17@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
