@@ -23,7 +23,7 @@ manage yourself effectively during independent projects, as well as collaboratin
 
 ## 🔥 Github Stats
 
-<img align="right" width="40%" height="70%" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif"/>
+<img align="right" width="40%" height="70%" src="https://cdn.discordapp.com/attachments/831153224559099954/1203179363407757323/ezgif-5-ff880075ec.gif?ex=65d0271a&is=65bdb21a&hm=2e7ba5a3bd5acc3ebafcd44f443e35752b9f1f525cb283dd1bcd35d983e0e88e&"/>
 
   <a href="https://github.com/tomas0204"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=tomas0204&theme=radical&title_color=ff3068&bg_color=00000000"></a>
 
