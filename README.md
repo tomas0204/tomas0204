@@ -25,8 +25,10 @@ manage yourself effectively during independent projects, as well as collaboratin
 
 <img align="right" width="50%" height="80%" src="https://user-images.githubusercontent.com/74038190/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif"/>
 
-  <a href="https://github.com/tomas0204"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=tomas0204&theme=radical&title_color=ff3068?"></a>
-  <a href="https://github.com/tomas0204"><img width="50%" src="http://github-readme-streak-stats.herokuapp.com/?user=tomas0204&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068"></a>
+  <a href="https://github.com/tomas0204"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=tomas0204&theme=radical&title_color=ff3068&bg_color=00000000"></a>
+
+  <a href="https://github.com/tomas0204"><img width="50%" src="http://github-readme-streak-stats.herokuapp.com/?user=tomas0204&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068&stroke=3D4957&background=00000000"></a>
+
 
 
 <h3 align="center">Languages and Tools:</h3>
