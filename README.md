@@ -18,6 +18,7 @@
 <h3 align="center">About Me</h3>
 <p align="center"> Developer with more than a year of professional experience, capable of
 manage yourself effectively during independent projects, as well as collaborating as part of a productive team.</p>
+<p align="center"> Portfolio: https://tomas0204.github.io/tomas0204/ </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tomas0204&label=Profile%20views&color=0e75b6&style=flat" alt="tomas0204" /> </p>
 
