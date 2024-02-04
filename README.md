@@ -12,11 +12,13 @@
   </a>
 </p>
 
-<h1 align="center" color="#0d1117">Hi 👋, I'm Tomás</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tomas0204&label=Profile%20views&color=0e75b6&style=flat" alt="tomas0204" /> </p>
+<h1 align="center">🔥 Github Stats </h1>
 
-## 🔥 Github Stats
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tomas0204&label=Profile%20views&color=red&style=for-the-badge" alt="Profile Views" />
+</p>
+
 
 <img align="right" width="40%" height="70%" src="https://cdn.discordapp.com/attachments/831153224559099954/1203179363407757323/ezgif-5-ff880075ec.gif?ex=65d0271a&is=65bdb21a&hm=2e7ba5a3bd5acc3ebafcd44f443e35752b9f1f525cb283dd1bcd35d983e0e88e&"/>
 
@@ -28,7 +30,7 @@
 <h3 align="center">Backend Developer</h3>
 
 <h3 align="center">About Me</h3>
-<p align="center"> Developer with more than a year of professional experience, capable of
+<p align="center"> Hi 👋, I'm Tomás --> Developer with more than a year of professional experience, capable of
 manage yourself effectively during independent projects, as well as collaborating as part of a productive team.</p>
 <p align="center"> Portfolio: https://tomas0204.github.io/tomas0204/ </p>
 
