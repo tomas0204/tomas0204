@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-  <img src="mario.gif" alt="Hello" width="800" height="400" style="border-radius: 10px;"/>
+  <img src="https://raw.githubusercontent.com/tomas0204/tomas0204/51ccf8c6e18f4f8505dd4e87325a82a677c7e47f/mario.gif" alt="Hello" width="800" height="400" style="border-radius: 10px;"/>
 </p>
 <p align="center" style="margin-top: -200px;">
   <a href="" alt="Join our community" style="margin-right: 10px;">
