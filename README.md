@@ -13,7 +13,7 @@
 </p>
 
 
-<h1 align="center">🔥 Github Stats </h1>
+<h2 align="center">Github Stats </h2>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=tomas0204&label=Profile%20views&color=red&style=for-the-badge" alt="Profile Views" />
@@ -27,7 +27,7 @@
   <a href="https://github.com/tomas0204"><img width="50%" src="http://github-readme-streak-stats.herokuapp.com/?user=tomas0204&theme=radical&date_format=M%20j%5B%2C%20Y%5D&ring=ff3068&fire=ff3068&sideNums=ff3068&stroke=3D4957&background=00000000"></a>
 
 
-<h3 align="center">Backend Developer</h3>
+<h2 align="center">Backend Developer</h2>
 
 <h3 align="center">About Me</h3>
 <p align="center"> Hi 👋, I'm Tomás --> Developer with more than a year of professional experience, capable of
