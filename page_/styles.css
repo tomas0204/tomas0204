@@ -67,10 +67,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     z-index: -1;
 }
 
-.div_nick{
-    transform: translateY(-10%) translateX(26%);
 
-}
 
 #desc_nick{
     transform: translateY(-80%) translateX(0%);
@@ -119,7 +116,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
 }
 
 .div_nick {
-    transform: translateY(-10%) translateX(26%);
+    transform: translateY(-15%) translateX(30%);
 }
 
 .palabra {
@@ -188,6 +185,8 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     color: #215E89;
     margin-bottom: 0.5em;
 }
+
+
 
 
 #div_proyects{
@@ -262,13 +261,27 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     z-index: 1;
     transform: translateY(-5px) translateX(-5px);
 }
+.proyect1{
+    transform: translateY(5%);
+}
+
+
+.proyect2{
+    transform: translateY(-30%);
+}
+
+
+.img_proyect{
+    width: 100%;
+}
+
 
 .tema-oscuro .proyects:hover img {
     box-shadow: 4px 4px 20px #121a2efa; /* Ajusta la sombra en modo oscuro al pasar el mouse */
 }
 
 #div_educacion{
-    transform: translateY(-30%);
+    transform: translateY(-75%);
     line-height: 0.4;
 }
 
@@ -344,7 +357,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
 }
 
 .div_redes{
-    transform: translateY(10px);
+    transform: translateY(-55%);
     line-height: 2.3;
 }
 
@@ -394,7 +407,7 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    transform: translateY(-50px) translateX(-20px);
+    transform: translateY(-80%) translateX(-20px);
     position: absolute;
 }
 
@@ -519,6 +532,10 @@ button:hover {
         max-width: 70%;
     }
 
+    .proyect2{
+        transform: translateY(50px);
+    }
+
     #div_proyects{
         transform: translateY(15%) translateX(15px);
     }
@@ -528,7 +545,7 @@ button:hover {
     }
 
     #div_educacion{
-        transform: translateY(40%) translateX(15px);
+        transform: translateY(80%) translateX(15px);
     }
 
     .educacion_info h4{
@@ -540,11 +557,11 @@ button:hover {
     }
 
     .div_redes{
-        transform: translateY(130%) translateX(15px);
+        transform: translateY(190%) translateX(15px);
     }
 
     .correo-container{
-        transform: translateY(50%) translateX(10px);
+        transform: translateY(100%) translateX(10px);
     }
     .correo-container h2{
         width: 10%;
