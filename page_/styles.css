@@ -568,16 +568,15 @@ button:hover {
     color: #215E89; /* Cambia el color de fondo al pasar el ratón por encima */
 }
 
-@media only screen and (min-width: 0px) and (max-width:  576px) {
+@media only screen and (min-width: 0px) and (max-width:  600px) {
 
     .div_general{
-        width: auto;
-        max-width: 405px;
+       width: 500px;
+       max-width: 395px;
         }
     
     .div_barra{
         width: auto;
-        max-width: auto;
         padding: 0;
         transform: translateX(0);
     }
@@ -589,20 +588,17 @@ button:hover {
 
     .div_nick{
         transform: translateY(-60px);
-        align-items: center;
-        justify-content: center;
+       justify-content: center;
     }
     
     .div_name_desc{
         width: 50%;
         padding: 0px;
-        transform: translateX(10px);
+        text-align: center;
+        transform: translateX(0px);
     }
 
-    #desc_nick{
-        transform: translateX(-15px);
-    }
-
+ 
     .palabra {
         font-size: 24px;
         overflow: hidden;
@@ -692,7 +688,7 @@ button:hover {
 
     } 
 
-    @media only screen and (min-width: 577px) and (max-width:  767px) {
+    @media only screen and (min-width: 601px) and (max-width:  767px) {
         
     #emoji-img{
         transform: translateX(0px);
