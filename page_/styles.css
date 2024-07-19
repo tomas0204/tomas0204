@@ -334,14 +334,17 @@ h3{
 }
 
 .tema-oscuro .div_code {
-    background-color: #27365f; /* Color de fondo del certificado */
+    background-color: #2a628a8c; /* Color de fondo del certificado */
     border-radius: 7px;
-    width: 140px;
+    width: 100px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s ease;
+    transform: translateY(18px);
+    margin-top: 10px;
+    text-align: center;
 }
 
 .tema-oscuro .code {
