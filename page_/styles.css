@@ -255,11 +255,13 @@ h3{
 }
 
 .project1_info{
-    width: 40%;
+    width: 45%;
+    height: auto;
     font-size: 19px;
     padding: 20px;
-    transform: translateY(-10%);
+    transform: translateY(-8%);
 }
+
 
 .project1_info p{
     position: relative;
@@ -303,7 +305,8 @@ h3{
     display: block;
 }
 
-.div_code {
+.div_code,
+.div_visit {
     background-color: #2a628a8c; /* Color de fondo del certificado */
     border-radius: 7px;
     width: 100px;
@@ -317,7 +320,8 @@ h3{
     text-align: center;
 }
 
-.code {
+.code,
+.visit{
     letter-spacing: 2px;
     color: #121a2efa; /* Color del texto del certificado */
     font-size: 20px;
@@ -325,15 +329,22 @@ h3{
     transition: color 0.3s ease; /* Agrega una transición al color del texto */
 }
 
-.div_code:hover {
+.div_visit{
+    transform: translateY(10px);
+}
+
+.div_code:hover,
+.div_visit:hover {
     background-color: #215e89a2; /* Nuevo color del fondo al pasar el ratón por el certificado */
 }
 
-.div_code:hover .code {
+.div_code:hover .code
+.div_visit:hover .visit {
     color: #27365f; /* Nuevo color del texto al pasar el ratón por el certificado */
 }
 
-.tema-oscuro .div_code {
+.tema-oscuro .div_code,
+.tema-oscuro .div_visit {
     background-color: #2a628a8c; /* Color de fondo del certificado */
     border-radius: 7px;
     width: 100px;
@@ -346,8 +357,12 @@ h3{
     margin-top: 10px;
     text-align: center;
 }
+.tema-oscuro .div_visit {
+    transform: translateY(10px);
+}
 
-.tema-oscuro .code {
+.tema-oscuro .code,
+.tema-oscuro .visit {
     letter-spacing: 2px;
     color: rgb(252, 252, 252); /* Color del texto del certificado */
     font-size: 20px;
@@ -648,11 +663,6 @@ button:hover {
         line-height: 50px;
     }
 
-    .project1_info{
-        width: 315px;
-        padding: 0px;
-        transform: translateY(0px);
-    }
 
     .project2{
         display: block;
