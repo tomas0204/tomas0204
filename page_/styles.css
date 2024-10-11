@@ -218,8 +218,8 @@ h1{
 
 #video-container {
     position: relative;
-    width: 50%;
-    max-width: 50%;
+    width: 500px;
+    max-width: 400px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -232,7 +232,6 @@ h1{
 .project1{
     display: flex;
     align-items: center; 
-    transform: translateX(10px);
 }
 
 h3{
@@ -242,7 +241,7 @@ h3{
 .project2{
     display: flex;
     align-items: center;
-   
+
 }
 
 #video-project1 {
