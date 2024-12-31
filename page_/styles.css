@@ -567,7 +567,7 @@ h2 i{
     
 }
 
-.button_correo {
+button {
     display: block;
     padding: 10px 25px;
     font-size: 15px;
@@ -580,7 +580,7 @@ h2 i{
     color: #1a1a1a; /* Color de texto predeterminado */
 }
 
-.button_correo:hover {
+button:hover {
     background-color: #215e8941;
     color: #215E89; /* Cambia el color de fondo al pasar el ratón por encima */
 }
