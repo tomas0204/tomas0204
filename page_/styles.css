@@ -145,14 +145,12 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
 }
 
 
-
 .tema-oscuro .div_avatar{
     width: 190px;
     height: 190px;
     overflow: hidden;
     border-radius: 50%;
     background-color: #121a2efa;
-  
     border: 5px solid #1742614b;
 }
 

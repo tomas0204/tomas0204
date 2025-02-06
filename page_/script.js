@@ -14,7 +14,7 @@ function cambiarTema() {
         icons.forEach(icon => icon.style.fill = "#121a2efa"); // Íconos 
     } else {
         toggle.style.backgroundColor = "#121a2efa"; // Fondo 
-        toggle.style.boxShadow = "0 0 33px 3px rgba(18, 26, 46, 0.25)"; // Sombra 
+        toggle.style.boxShadow = "0 0 33px 3px rgba(230, 12, 12, 0.34)"; // Sombra 
         icons.forEach(icon => icon.style.fill = "rgb(252, 252, 252)"); // Íconos 
     }
 }
