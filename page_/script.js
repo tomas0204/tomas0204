@@ -1,29 +1,25 @@
 function cambiarTema() {
-    var body = document.body;
+    const body = document.body;
+    const toggle = document.querySelector(".toggle");
+    const icons = document.querySelectorAll(".icon svg");
 
-    // Forzar la aplicación inmediata de la transición
-    body.offsetHeight; // Esto activa la transición sin esperar
-
-    // Cambia el color de fondo y el color de texto en función del tema
+    // Alternar clases de tema en el body
     body.classList.toggle("tema-oscuro");
-    var temaOscuro = body.classList.contains("tema-oscuro");
-    body.style.backgroundColor = temaOscuro ? "#121a2efa" : "rgb(252, 252, 252)";
-    body.style.color = temaOscuro ? "rgb(252, 252, 252)" : "#121a2efa";
+    body.classList.toggle("tema-claro");
 
-    // Cambia el contenido del botón entre 🌞 y 🌜 inmediatamente
-    var imgSrc = temaOscuro ? "page_/moon.png" : "page_/sun.png";
-    var emojiImg = document.getElementById("emoji-img");
-    emojiImg.src = imgSrc;
-    
-    cambiarImagenSegunTema();
-
+    // Verificar el modo actual y cambiar estilos
     if (body.classList.contains("tema-oscuro")) {
-        imagenProyecto.style.backgroundColor = "red";
+        toggle.style.backgroundColor = "rgb(252, 252, 252)"; // Fondo 
+        toggle.style.boxShadow = "0 0 33px 3px rgba(255, 255, 255, 0.18)"; // Sombra clara
+        icons.forEach(icon => icon.style.fill = "#121a2efa"); // Íconos 
     } else {
-        // Restablecer el fondo de la imagen cuando no está en modo oscuro
-        imagenProyecto.style.backgroundColor = "transparent";
+        toggle.style.backgroundColor = "#121a2efa"; // Fondo 
+        toggle.style.boxShadow = "0 0 33px 3px rgba(18, 26, 46, 0.25)"; // Sombra 
+        icons.forEach(icon => icon.style.fill = "rgb(252, 252, 252)"); // Íconos 
     }
 }
+
+
 
 // Asegúrate de que el tema se ajuste correctamente al cargar la página
 document.addEventListener('DOMContentLoaded', function () {

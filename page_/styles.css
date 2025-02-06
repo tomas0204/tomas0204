@@ -1,14 +1,15 @@
-body {
+/* Estilos por defecto para el tema claro */
+body.tema-claro {
     background-color: rgb(252, 252, 252);
-    color: #121a2efa; 
-    transition: background-color 0.3s ease, color 0.3s ease;
-    justify-content: end; /* Centra horizontalmente */
-    align-items: center;
+    color: #121a2efa;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+/* Estilos para el tema oscuro */
 body.tema-oscuro {
-    background-color: #121a2efa; 
-    color: rgb(252, 252, 252);   
+    background-color: #121a2efa;
+    color: rgb(252, 252, 252);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 
@@ -31,21 +32,61 @@ body.tema-oscuro {
     width: 30px;
     z-index: 1000; /* Asegurar que esté sobre otros elementos */
 }
-
-
-
 #cambiar-tema {
-    z-index: 1000;;
     display: flex;
     flex-wrap: wrap;
     border: none;  
     background: none;  
     cursor: pointer;
     outline: none; 
- 
 }
 
-emoji
+/* From Uiverse.io by Creatlydev */ 
+.toggle {
+background-color: #121a2efa;
+width: 46px;
+height: 46px;
+border-radius: 50%;
+display: grid;
+place-items: center;
+cursor: pointer;
+box-shadow: 0 0 33px 3px rgba(230, 12, 12, 0.34);
+line-height: 1;
+}
+
+.toggle {
+    transition: background-color 0.3s;
+}
+
+.icon svg {
+    transition: fill 0.3s;
+}
+
+.input {
+display: none;
+}
+
+.icon {
+grid-column: 1 / 1;
+grid-row: 1 / 1;
+transition: 0.3s;
+}
+
+.icon--sun {
+    transform: scale(1); /* Ahora el sol está visible al inicio */
+}
+
+.icon--moon {
+    transform: scale(0);
+}
+
+#switch:checked + .icon--moon {
+    transform: scale(1) rotate(360deg);
+}
+
+#switch:checked ~ .icon--sun {
+    transform: scale(0);
+}
 
 /* Estilo de la barra de desplazamiento en la página normal */
 body::-webkit-scrollbar {
@@ -82,7 +123,6 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     font-size: 20px;
     color: #215E89;
     height: 15%;
-    
 }
 
 .div_name_desc{
@@ -100,7 +140,8 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     border-radius: 50%;
     background-color: #215e898c;
     border: 5px solid #121a2efa;
-    transition: background-color 0.7s ease;
+    transition: background-color 0.3s ease;
+    
 }
 
 
@@ -123,14 +164,12 @@ body.tema-oscuro::-webkit-scrollbar-thumb {
     transform: translateX(-35px);
 }
 
-  
-
-
 .div_nick {
-    transform: translateY(-10%);
+    transform: translateY(-24%);
     display: flex;
     flex-wrap: wrap;
 }
+
 h1{
     height: 40px;
 }
@@ -397,7 +436,7 @@ h3{
 
 #div_educacion{
   
-    line-height: 0.4;
+    line-height: 0.3;
 }
 
 .educacion_info{
@@ -480,54 +519,72 @@ h3{
 
 .div_redes{
     line-height: 2.3;
+    padding-bottom: 50px;
 }
 
 #redes{
     font-size: 30px;
 }
 
-.div_git{
+.links{
+    display: flex;
+    gap: 20px; /* Ajusta el valor según la separación deseada */
     transform: translateX(10px);
-    
-}
-
-#git {
-    font-size: 23px;
-    text-decoration: none; /* Elimina el subrayado */
-    color: inherit; /* Hereda el color del texto */
-    margin-top: 10px;
-}
-
-#git::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #215E89;
-    transition: width 0.3s ease; /* Añade una transición a la propiedad width */
-    bottom: 10px;
-}
-
-#git:hover::before {
-    width: 100px;
-}
-
-#github-img{
-    width: 23px;
-   
 }
 
 
-
-#gmail{
-    font-size: 30px;
+.icons-social-media {
+    fill: #121a2efa; 
+    align-items: center;
+    padding: 7px;
+    width: 32px;
+    cursor: pointer !important;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+}
+  
+.icons-social-media:hover {
+    translate: -0px -10px;
+}
+  
+#gmail,
+      #github,#whatsapp {
+    transition: 0.3s all ease-in-out;
+    clip-path: circle(65%);
+}
+  
+#gmail:hover {
+    background-color: rgb(243, 117, 189);
+}
+  
+#github {
+    height: 35px;
+}
+  
+#github:hover {
+    background-color: rgba(90, 90, 90, 0.616);
+}
+  
+#whatsapp:hover {
+    background-color: rgb(129, 252, 135);
 }
 
-.correo-container {
-    margin: 10px auto;
+/* Tema oscuro */
+.tema-oscuro .icons-social-media{
+    fill: rgb(252, 252, 252);
 }
+.tema-oscuro #gmail:hover {
+    background-color: rgb(94, 27, 65);
+}
+
+.tema-oscuro #github:hover {
+    background-color: rgba(56, 55, 55, 0.705);
+}
+
+.tema-oscuro #whatsapp:hover {
+    background-color: rgb(33, 114, 37);
+}
+
 
 h2 {
     font-size: 30px;
@@ -548,25 +605,6 @@ h2 i{
     color: rgb(252, 252, 252) /* Color gris para el modo oscuro */
 }
 
-.correo-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(10px);
-   
-}
-
-.correo {
-    font-size: 20px;
-    padding: 10px;
-    background-color: #215e8941;
-    border-radius: 10px;
-    flex-grow: 1;
-    width: 400px;
-    display: inline-block;
-    
-}
-
 button {
     display: block;
     padding: 10px 25px;
@@ -584,7 +622,7 @@ button:hover {
     background-color: #215e8941;
     color: #215E89; /* Cambia el color de fondo al pasar el ratón por encima */
 }
-
+  
 @media only screen and (min-width: 0px) and (max-width:  600px) {
 
     .div_general{
