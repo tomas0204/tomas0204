@@ -25,8 +25,7 @@
 <h2 align="center">Backend Developer</h2>
 
 <h3 align="center">About Me</h3>
-<p align="center"> Hi 👋, I'm Tomás --> Developer with more than a year of professional experience, capable of
-manage yourself effectively during independent projects, as well as collaborating as part of a productive team.</p>
+<p align="center"> Hi 👋, I'm Tomás </p>
 <p align="center"> Portfolio: https://tomas0204.github.io/tomas0204/ </p>
 
 
