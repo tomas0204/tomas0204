@@ -26,6 +26,6 @@
 
 <h3 align="center">About Me</h3>
 <p align="center"> Hi 👋, I'm Tomás </p>
-<p align="center"> Portfolio: https://tomas0204.github.io/tomas0204/ </p>
+<p align="center"> Portfolio: https://tomas0204.github.io/Portfolio/</p>
 
 
